@@ -6,6 +6,8 @@ public class Readers {
 		// TODO Auto-generated method stub
 		FileReader reader = new FileReader();
 		reader.displayFile("C:/users/licence/Desktop/.gitignore");
+		System.out.println("");
+		reader.displayFileReversed("C:/users/licence/Desktop/.gitignore");
 
 	}
 

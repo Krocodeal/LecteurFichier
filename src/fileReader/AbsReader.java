@@ -16,7 +16,7 @@ public abstract class AbsReader implements ReaderInterface{
 				fis = new FileInputStream(fileName);
 		
 				System.out.println("Total file size to read (in bytes) : "
-						+ fis.available());
+						+ fis.available() + "\n");
 		
 				return true;
 		
