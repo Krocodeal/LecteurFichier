@@ -1,11 +1,11 @@
-package lecteurFichier;
+package fileReader;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
 
-public abstract class AbsLecteur implements InterfaceLecteur{
+public abstract class AbsReader implements ReaderInterface{
 	
 	public boolean openAndCheck(String fileName){
 		
@@ -36,11 +36,11 @@ public abstract class AbsLecteur implements InterfaceLecteur{
 	}
 	
 	
-	public void readFichier(){
+	public void readFile(){
 		
 	}
 
 	@Override
-	public abstract void afficher(String fileName);
+	public abstract void displayFile(String fileName);
 	
 }
