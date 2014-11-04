@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public abstract class AbsReader implements ReaderInterface{
 	
+	
 	public boolean openAndCheck(String fileName){
 		
 		File f = new File(fileName); 
